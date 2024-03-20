@@ -95,6 +95,16 @@ header {
     height: 150px;
     width: 100%;
     background-color: rgb(72, 73, 0);
+
+    & .ancho50 {
+        width: 50%;
+        color: aliceblue;
+
+        border: dashed 2px black;
+    }
+
+
+
 }
 
 #articulos {
