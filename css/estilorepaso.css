@@ -98,9 +98,11 @@ header {
 
     & .ancho50 {
         width: 50%;
+        height: 100%;
         color: aliceblue;
-
         border: solid 2px black;
+        font-size: 40px;
+        overflow: hidden;
     }
 
 
@@ -125,6 +127,20 @@ footer {
     height: 60px;
     width: 100%;
     background-color: rgb(167, 141, 197);
+}
+
+.imagen {
+    width: 100%;
+ 
+    object-fit: contain ;
+
+}
+
+.divider{
+height: 3px;
+width: 100%;
+background-color:
+
 }
 
 main {
