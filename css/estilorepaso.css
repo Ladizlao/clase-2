@@ -86,10 +86,11 @@ header {
 }
 
 #banner {
-    height: 200px;
+    height: 300px;
     width: 100%;
     background-color: azure;
 }
+
 
 #descript {
     height: 150px;
@@ -131,15 +132,17 @@ footer {
 
 .imagen {
     width: 100%;
-
     object-fit: contain;
 
 }
 
 .imagen-fond {
     width: 100%;
-    object-fit: cover;
-    z-index: 0;
+    height: 100%;
+    & img {
+        object-fit: cover;
+    }
+
 }
 
 .divider {
