@@ -131,15 +131,21 @@ footer {
 
 .imagen {
     width: 100%;
- 
-    object-fit: contain ;
+
+    object-fit: contain;
 
 }
 
-.divider{
+.imagen-fond {
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.divider {
     height: 3px;
     width: 100%;
-    background: linear-gradient(90deg,  rgba(0,0,0,0) 0%, blue 50%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, blue 50%, rgba(255, 255, 255, 0) 100%);
 }
 
 main {
