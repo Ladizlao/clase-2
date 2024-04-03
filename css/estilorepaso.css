@@ -148,6 +148,7 @@ footer {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, blue 50%, rgba(255, 255, 255, 0) 100%);
 }
 
+
 main {
     width: var(--anchomain);
     margin: auto;
