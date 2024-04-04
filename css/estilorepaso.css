@@ -94,7 +94,7 @@ header {
 
 
 #descript {
-    height: 150px;
+    height: 250px;
     width: 100%;
     background-color: rgb(72, 73, 0);
 
@@ -103,17 +103,30 @@ header {
         height: 100%;
         color: aliceblue;
         border: solid 2px black;
-        font-size: 40px;
+        font-size: 18px;
         overflow: hidden;
     }
 
 }
 
-.texto{
+.positionabs {
     position: absolute;
-    width: 300px;
-    background-color: aqua;
+
+
+}
+
+.positionrel {
+
+    position: relative;
+
+}
+
+.texto {
+    position: absolute;
+    top: 70px;
+    left: 700px;
     padding: 5px;
+
 }
 
 #articulos {
@@ -145,6 +158,7 @@ footer {
 .imagen-fond {
     width: 100%;
     height: 100%;
+
     & img {
         width: 100%;
         height: 100%;
@@ -157,6 +171,33 @@ footer {
     height: 3px;
     width: 100%;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, blue 50%, rgba(255, 255, 255, 0) 100%);
+}
+
+.parrafito {
+
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    right: 10px;
+    bottom: 10px;
+    background-color: teal;
+
+    & span {
+        color: black;
+        position: absolute;
+        font-size: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        top: -5%;
+        left: -10%;
+    }
+
+    & span:nth-child(2) {
+        color: beige;
+        top:none;
+        left: none;
+        top: 80%;
+        left: 90%;
+    }
 }
 
 
