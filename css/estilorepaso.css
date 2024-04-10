@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
 }
 
 :root {
@@ -79,9 +80,23 @@ header {
     display: flex;
 }
 
+.columna{
+flex-direction: column;
+}
+
+.separar{
+    justify-content: space-between;
+}
+
+
 .centrar {
     justify-content: center;
     align-items: center;
+
+}
+
+.h50{
+    height: 50%;
 
 }
 
@@ -130,11 +145,29 @@ header {
 }
 
 #articulos {
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-color: rgb(194, 199, 121);
+    display: flex;
 
 }
+
+.producto {
+    width: 25%;
+    height: 100%;
+    background-color: aliceblue;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    & .img_prod {
+        height: 50%;
+        background-color: rgb(70, 70, 25);
+
+    }
+
+
+}
+
 
 #nosotros {
     height: 150px;
@@ -193,13 +226,36 @@ footer {
 
     & span:nth-child(2) {
         color: beige;
-        top:none;
+        top: none;
         left: none;
         top: 80%;
         left: 90%;
     }
 }
 
+.btn {
+    border: solid 1px white;
+    background-color: transparent;
+    box-shadow: 0 0 15px 0 black;
+    width: 100%;
+    padding: 5px 5px;
+}
+
+.btn:hover {
+    background-color: white;
+    box-shadow: 0 5px 15px 0 black;
+}
+
+.btn:active {
+    background-color: rgb(120, 190, 108);
+    box-shadow: 0 5px 15px 0 black;
+}
+
+.divider {
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, blue 50%, rgba(255, 255, 255, 0) 100%);
+}
 
 
 
