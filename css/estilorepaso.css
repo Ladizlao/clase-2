@@ -155,7 +155,6 @@ flex-direction: column;
 .producto {
     width: 25%;
     height: 100%;
-    background-color: aliceblue;
     display: flex ;
     flex-direction: column;
     justify-content: space-between;
@@ -166,6 +165,18 @@ flex-direction: column;
     }
 
 
+}
+.producto:nth-child(3){
+    background-color: aliceblue;
+}
+.producto:nth-child(1){
+    background-color: wheat;
+}
+.producto:nth-child(2){
+    background-color: gold;
+}
+.producto:nth-child(4){
+    background-color: rgb(255, 0, 0);
 }
 
 
