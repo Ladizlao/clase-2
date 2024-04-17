@@ -188,10 +188,10 @@ header {
 #nosotros {
     height: 300px;
     width: 100%;
-  
     display: flex;
     justify-content: space-around;
-    background:linear-gradient(0deg, black, yellow) ;
+    background:linear-gradient(0deg, rgb(228, 37, 37), yellow) ;
+    padding: 20px;
 
 }
 
