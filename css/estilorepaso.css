@@ -186,7 +186,7 @@ header {
 
 
 #nosotros {
-    height: 150px;
+    height: 300px;
     width: 100%;
     background-color: rgb(65, 66, 65);
     display: flex;
@@ -196,7 +196,9 @@ header {
 
 .staff {
     height: 100%;
-    width: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
     background-color: blue;
 
 }
