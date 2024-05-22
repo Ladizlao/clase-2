@@ -35,7 +35,7 @@ body {
         ul {
             list-style: none;
             display: flex;
-            gap: 90px;
+            gap: 290px;
             li {
                 height: 30px;
                 width: 30px;
