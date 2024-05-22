@@ -32,6 +32,15 @@ body {
         width: 100%;
         background-color: rgb(100, 100, 253);
 
+        .carrito {
+            position: relative;
+            top:20%;
+            height: 25px;
+            width: 70px;
+            
+        }
+
+
     }
 
     .main_prod {
