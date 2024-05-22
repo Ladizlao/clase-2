@@ -32,12 +32,25 @@ body {
         width: 100%;
         background-color: rgb(100, 100, 253);
 
-        .carrito {
-            position: relative;
-            top:20%;
-            height: 25px;
-            width: 70px;
-            
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            li {
+                height: 30px;
+                width: 30px;
+                border-radius: 100%;
+            }
+        }
+
+        ul.talles li{
+            height: 40px;
+            width: 40px;
+            display: grid;
+            place-items: center;
+
+        }
         }
 
 
